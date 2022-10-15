@@ -25,6 +25,6 @@ PS - I wouldn't run RunSwiftLintAnalyzer.zsh on every build but instead check it
 
 
 ## Troubleshooting:
-- If RunSwiftLintAnalyzer.zsh is having problems then try uncommenting some of the 'rm rf' commands but be careful. Or manually delete DerivedData/clean cache
+- If RunSwiftLintAnalyzer.zsh is having problems then try uncommenting some of the 'rm rf'/'rm' commands but be careful. Or manually delete DerivedData/clean cache + log files
 - **Don't** try to run RunSwiftLintAnalyzer.zsh within a Build Phase in Xcode, it won't work and has to be run from a command line
 - If line numbers are incorrent or warnings/errors are staying - you will need to update the **analysis.log** file by rerunning RunSwiftLintAnalyzer.zsh
