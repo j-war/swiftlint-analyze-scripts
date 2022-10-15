@@ -1,0 +1,16 @@
+# SwiftLint rules list: https://realm.github.io/SwiftLint/rule-directory.html
+
+included:
+  - ${PWD}
+
+analyzer_rules:
+  - capture_variable
+#  - explicit_self #Too noisy.
+  - typesafe_array_init
+  - unused_declaration
+  - unused_import
+
+unused_declaration:
+  include_public_and_open: true
+
+reporter: "xcode"
