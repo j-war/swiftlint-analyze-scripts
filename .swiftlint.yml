@@ -1,11 +1,12 @@
 # SwiftLint rules list: https://realm.github.io/SwiftLint/rule-directory.html
+# Configuration for Swiftlint version 0.50.1
 
 included:
   - ${PWD}
 
 analyzer_rules:
   - capture_variable
-#  - explicit_self #Too noisy.
+#  - explicit_self # Too noisy.
   - typesafe_array_init
   - unused_declaration
   - unused_import

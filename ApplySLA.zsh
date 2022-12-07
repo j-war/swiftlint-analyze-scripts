@@ -13,7 +13,7 @@ if [ -f $analysislog ]; then # if the file exits, continue
     while read line; do echo $line; done < $analysislog
     exit 1
   else
-   # If there are no lines to apply:
+    # If there are no lines to apply:
     echo "The $analysislog was empty. There were no errors or warnings detected."
     exit 0
   fi

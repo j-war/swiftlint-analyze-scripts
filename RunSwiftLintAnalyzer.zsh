@@ -10,7 +10,7 @@ project="$name.xcodeproj"
 workspace="$name.xcworkspace"
 scheme="$name-sla"
 # https://mokacoding.com/blog/xcodebuild-destination-options/
-platform="platform=iOS Simulator,name=iPad Pro (11-inch) (3rd generation),OS=16.1" # -destination "platform=iOS Simulator,id=<ID>"
+platform="platform=iOS Simulator,name=iPad Pro (11-inch) (4th generation),OS=16.2" # -destination "platform=iOS Simulator,id=<ID>"
 xcodelog="xcodebuild.log"
 analysislog="analysis.log"
 config=".swiftlint.yml"
