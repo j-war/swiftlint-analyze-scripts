@@ -1,5 +1,6 @@
-#!/usr/bin/zsh
+#!/bin/zsh
 # ApplySLA.zsh
+#
 # Run this script in an xcode buildphase after RunSwiftLintAnalyzer.zsh
 # has been run from the cmd line outside of xcode's build phases.
 

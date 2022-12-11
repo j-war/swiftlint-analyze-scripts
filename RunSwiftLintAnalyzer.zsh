@@ -1,5 +1,6 @@
 #!/bin/zsh
 # RunSwiftLintAnalyzer.zsh
+#
 # Run this separately from normal builds. Do not run in a build phase.
 # Then apply the results in a xcode buildphase with ApplySLA.zsh
 
